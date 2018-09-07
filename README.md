@@ -6,21 +6,23 @@ Made with NodeJS, TypeScript, Babel, Koa, ElasticSearch, tslint.
 ## Quickstart
 
 Edit src/config/index.ts with your ElasticSearch configuration.
-npm i
-npm run build-run
+
+     npm i
+     npm run build-run
+     
 Open localhost:8000 in your navigator. See Methods for more information.
 
 ### Edit src/config/index.ts with your ElasticSearch configuration
 
-elasticSearchProtocol: string = 'http' | 'https'
-elasticSearchHost: string // elasticsearch host ip
-elasticSearchPort: number // elasticsearch host port
+    elasticSearchProtocol: string = 'http' | 'https'
+    elasticSearchHost: string // elasticsearch host ip
+    elasticSearchPort: number // elasticsearch host port
 
 ## Commands
 
-npm run build // build typescript
-npm start // run compiled javascript
-npm run build-run // build typescript & run javascript
+    npm run build // build typescript
+    npm start // run compiled javascript
+    npm run build-run // build typescript & run javascript
 
 ## Methods
 
