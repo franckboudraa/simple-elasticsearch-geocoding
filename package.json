@@ -1,0 +1,39 @@
+{
+  "name": "simple-elasticsearch-geocoding-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./lib/cluster.js",
+  "scripts": {
+    "start": "node ./lib/cluster.js",
+    "cluster": "node ./lib/cluster.js",
+    "build-run": "npm run build && npm run cluster",
+    "type-check": "tsc --noEmit",
+    "build": "npm run build-types && npm run build-js",
+    "build-types": "tsc --emitDeclarationOnly",
+    "build-js": "babel src --out-dir lib --extensions \".ts,.tsx\" --source-maps inline"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.0.0",
+    "@babel/plugin-proposal-class-properties": "^7.0.0",
+    "@babel/plugin-proposal-object-rest-spread": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/preset-typescript": "^7.0.0",
+    "@types/elasticsearch": "^5.0.26",
+    "@types/koa": "^2.0.46",
+    "@types/koa-bodyparser": "^5.0.1",
+    "@types/koa-router": "^7.0.31",
+    "@types/node": "^10.9.4",
+    "tslint": "^5.11.0",
+    "typescript": "^3.0.3"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.0.0",
+    "elasticsearch": "^15.1.1",
+    "koa": "^2.5.2",
+    "koa-bodyparser": "^4.2.1",
+    "koa-router": "^7.4.0"
+  }
+}
