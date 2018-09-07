@@ -1,4 +1,4 @@
-# SIMPLE ELASTICSEARCH GEOCODING SERVICE
+# Simple ElasticSearch Geocoding Service
 
 Multi-thread.
 Made with NodeJS, TypeScript, Babel, Koa, ElasticSearch, tslint.
