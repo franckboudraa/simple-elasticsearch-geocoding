@@ -26,14 +26,14 @@ Open localhost:8000 in your navigator. See Methods for more information.
 
 ## Methods
 
-GET /coords/:address
+    GET /coords/:address
 returns address, lat, lng
 
-POST /coords
+    POST /coords
 create an address
 
-PATCH /coords
+    PATCH /coords
 update an address
 
-DELETE /coords
+    DELETE /coords
 delete an address
