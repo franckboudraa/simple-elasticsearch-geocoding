@@ -29,11 +29,11 @@ Open localhost:8000 in your navigator. See Methods for more information.
     GET /coords/:address
 returns address, lat, lng
 
-    POST /coords
+    POST /coords // json IGeocodingPost
 create an address
 
-    PATCH /coords
+    PATCH /coords // json IGeocodingPatch
 update an address
 
-    DELETE /coords
+    DELETE /coords // json IGeocodingDelete
 delete an address
